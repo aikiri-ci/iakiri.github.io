@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Consulting Illustration -->
+    <rect width="800" height="600" fill="#1a1a1a"/>
+    
+    <!-- Connected People Network -->
+    <g opacity="0.8">
+        <!-- People Icons -->
+        <g transform="translate(200,200)">
+            <circle cx="0" cy="0" r="30" fill="#2563eb" opacity="0.3"/>
+            <circle cx="0" cy="-15" r="12" fill="#2563eb"/>
+            <path d="M-15,0 Q0,30 15,0" stroke="#2563eb" stroke-width="2" fill="none"/>
+        </g>
+        
+        <g transform="translate(400,300)">
+            <circle cx="0" cy="0" r="30" fill="#2563eb" opacity="0.3"/>
+            <circle cx="0" cy="-15" r="12" fill="#2563eb"/>
+            <path d="M-15,0 Q0,30 15,0" stroke="#2563eb" stroke-width="2" fill="none"/>
+        </g>
+        
+        <g transform="translate(600,200)">
+            <circle cx="0" cy="0" r="30" fill="#2563eb" opacity="0.3"/>
+            <circle cx="0" cy="-15" r="12" fill="#2563eb"/>
+            <path d="M-15,0 Q0,30 15,0" stroke="#2563eb" stroke-width="2" fill="none"/>
+        </g>
+        
+        <!-- Connections -->
+        <path d="M230,200 L370,300" stroke="#2563eb" stroke-width="2" opacity="0.5"/>
+        <path d="M430,300 L570,200" stroke="#2563eb" stroke-width="2" opacity="0.5"/>
+        <path d="M200,200 Q400,100 600,200" stroke="#2563eb" stroke-width="2" opacity="0.3"/>
+    </g>
+    
+    <!-- Growth Arrow -->
+    <g transform="translate(350,400)">
+        <path d="M0,0 L100,-100 L80,-80 M100,-100 L100,-20" 
+              stroke="#2563eb" stroke-width="3" fill="none"/>
+    </g>
+    
+    <!-- Strategy Elements -->
+    <g transform="translate(150,450)">
+        <rect x="0" y="0" width="40" height="40" 
+              stroke="#2563eb" stroke-width="2" fill="none" opacity="0.5"/>
+        <rect x="60" y="0" width="40" height="40" 
+              stroke="#2563eb" stroke-width="2" fill="none" opacity="0.6"/>
+        <rect x="120" y="0" width="40" height="40" 
+              stroke="#2563eb" stroke-width="2" fill="none" opacity="0.7"/>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Business Intelligence Illustration -->
+    <rect width="800" height="600" fill="#1a1a1a"/>
+    
+    <!-- Graph Background -->
+    <path d="M100,500 L100,100 L700,100" stroke="#2563eb" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Bar Chart -->
+    <g opacity="0.8">
+        <rect x="150" y="300" width="60" height="200" fill="#2563eb" opacity="0.3"/>
+        <rect x="250" y="200" width="60" height="300" fill="#2563eb" opacity="0.5"/>
+        <rect x="350" y="150" width="60" height="350" fill="#2563eb" opacity="0.7"/>
+        <rect x="450" y="250" width="60" height="250" fill="#2563eb" opacity="0.4"/>
+        <rect x="550" y="350" width="60" height="150" fill="#2563eb" opacity="0.6"/>
+    </g>
+    
+    <!-- Line Graph -->
+    <path d="M100,400 Q200,350 300,300 T500,200 T700,250" 
+          stroke="#2563eb" stroke-width="3" fill="none"/>
+    
+    <!-- Data Points -->
+    <circle cx="100" cy="400" r="6" fill="#2563eb"/>
+    <circle cx="300" cy="300" r="6" fill="#2563eb"/>
+    <circle cx="500" cy="200" r="6" fill="#2563eb"/>
+    <circle cx="700" cy="250" r="6" fill="#2563eb"/>
+    
+    <!-- Trend Indicators -->
+    <g transform="translate(650,150)">
+        <path d="M0,0 L20,-20 L40,0" stroke="#2563eb" stroke-width="2" fill="none"/>
+        <circle cx="20" cy="-10" r="5" fill="#2563eb"/>
+    </g>
+</svg>

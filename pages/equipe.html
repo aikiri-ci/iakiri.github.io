@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Équipe - IAkiri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 3rem;
+            padding: 2rem 0;
+        }
+
+        .team-member {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 20px rgba(37, 99, 235, 0.2);
+        }
+
+        .member-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 1.5rem;
+            overflow: hidden;
+            border: 3px solid var(--primary);
+            position: relative;
+        }
+
+        .member-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .member-info h3 {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .member-role {
+            color: var(--primary);
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .member-bio {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .expertise-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .expertise-tag {
+            background: rgba(37, 99, 235, 0.1);
+            color: var(--primary);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid rgba(37, 99, 235, 0.2);
+        }
+
+        .section-intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+        }
+
+        .section-intro p {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../index.html" class="logo">IAkiri</a>
+        <ul class="nav-links">
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="activites.html">Activités</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="equipe.html">Équipe</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Notre Équipe</h1>
+            <p class="subtitle">Des experts passionnés par l'innovation et l'intelligence artificielle.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-intro">
+            <h2 class="section-title">Une Équipe d'Experts</h2>
+            <p>Notre équipe réunit des talents exceptionnels dans les domaines de l'intelligence artificielle, de l'analyse de données et du conseil stratégique.</p>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-photo">
+                    <img src="../assets/images/team-profile.svg" alt="Directeur Général">
+                </div>
+                <div class="member-info">
+                    <h3>Thomas Martin</h3>
+                    <div class="member-role">Directeur Général</div>
+                    <p class="member-bio">15 ans d'expérience dans l'IA et la transformation digitale des entreprises.</p>
+                    <div class="expertise-tags">
+                        <span class="expertise-tag">Intelligence Artificielle</span>
+                        <span class="expertise-tag">Stratégie</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="member-photo">
+                    <img src="../assets/images/team-profile.svg" alt="Directrice Technique">
+                </div>
+                <div class="member-info">
+                    <h3>Sophie Dubois</h3>
+                    <div class="member-role">Directrice Technique</div>
+                    <p class="member-bio">Experte en machine learning et développement de solutions IA innovantes.</p>
+                    <div class="expertise-tags">
+                        <span class="expertise-tag">Machine Learning</span>
+                        <span class="expertise-tag">Deep Learning</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="member-photo">
+                    <img src="../assets/images/team-profile.svg" alt="Responsable Data Science">
+                </div>
+                <div class="member-info">
+                    <h3>Alexandre Chen</h3>
+                    <div class="member-role">Responsable Data Science</div>
+                    <p class="member-bio">Spécialiste en analyse de données et modélisation prédictive.</p>
+                    <div class="expertise-tags">
+                        <span class="expertise-tag">Data Science</span>
+                        <span class="expertise-tag">Analytics</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="member-photo">
+                    <img src="../assets/images/team-profile.svg" alt="Consultante Senior">
+                </div>
+                <div class="member-info">
+                    <h3>Marie Lambert</h3>
+                    <div class="member-role">Consultante Senior</div>
+                    <p class="member-bio">Experte en intelligence économique et analyse stratégique.</p>
+                    <div class="expertise-tags">
+                        <span class="expertise-tag">Intelligence Économique</span>
+                        <span class="expertise-tag">Conseil</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 IAkiri. Tous droits réservés.</p>
+        <p>Intelligence Artificielle & Intelligence Économique</p>
+    </footer>
+
+    <script src="../js/background.js"></script>
+</body>
+</html>
